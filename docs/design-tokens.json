@@ -1,0 +1,22 @@
+{
+  "colors": {
+    "navy": "#00115C",
+    "ctaBlue": "#2457C5",
+    "beige": "#FFFDF9",
+    "softBlue": "#EAF3F8",
+    "white": "#FFFFFF"
+  },
+  "radius": {
+    "card": "12px",
+    "button": "12px"
+  },
+  "shadow": "0 2px 6px rgba(0,0,0,0.10)",
+  "spacing": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "12px",
+    "lg": "16px",
+    "xl": "24px",
+    "2xl": "32px"
+  }
+}
