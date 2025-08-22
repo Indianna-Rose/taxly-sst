@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["meta", "rates"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["jurisdiction", "financial_year_label", "start_date", "end_date", "currency", "version"]
+    },
+    "rates": {
+      "type": "object",
+      "required": ["income_tax", "medicare_levy", "hecs_help", "gst", "super"]
+    }
+  }
+}
