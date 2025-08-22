@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "jurisdiction": "AU",
+    "financial_year_label": "FY2025",
+    "start_date": "2024-07-01",
+    "end_date": "2025-06-30",
+    "currency": "AUD",
+    "version": "0.1.0"
+  },
+  "rates": {
+    "income_tax": {
+      "resident": [
+        { "min": 0, "max": 0, "base_tax": 0, "marginal_rate": 0.0 },
+        { "min": 0, "max": 0, "base_tax": 0, "marginal_rate": 0.0 }
+      ],
+      "non_resident": [
+        { "min": 0, "max": 0, "base_tax": 0, "marginal_rate": 0.0 }
+      ],
+      "lito": {
+        "max_offset": 0,
+        "phase_out_from": 0,
+        "phase_out_rate": 0.0
+      },
+      "mito": {
+        "max_offset": 0,
+        "phase_out_from": 0,
+        "phase_out_rate": 0.0
+      }
+    },
+    "medicare_levy": {
+      "base_rate": 0.02,
+      "low_income_threshold": 0,
+      "phase_in_upper": 0,
+      "family_threshold_base": 0,
+      "child_increment": 0
+    },
+    "hecs_help": {
+      "bands": [
+        { "min": 0, "max": 0, "rate": 0.00 },
+        { "min": 0, "max": 0, "rate": 0.00 }
+      ],
+      "rounding": "nearest-dollar"
+    },
+    "gst": {
+      "rate": 0.10
+    },
+    "super": {
+      "suggested_default_percent": 0.11,
+      "min_percent": 0.00,
+      "max_percent": 0.20
+    }
+  },
+  "deductions": {
+    "profiles": [
+      {
+        "profession": "Freelancer",
+        "categories": [
+          {
+            "key": "home_office",
+            "title": "Home Office",
+            "typical_evidence": ["rent_receipts", "electricity_bills"],
+            "guide_md": "Track your % business use of home. Save bills and rent statements."
+          }
+        ],
+        "typical_count": 7
+      }
+    ]
+  },
+  "ui": {
+    "tip_bank": [
+      { "audience": "freelancers", "title": "Track internet", "body": "A portion may be deductible." }
+    ],
+    "progress_thresholds": { "on_track": 0.6, "behind": 0.4 }
+  },
+  "legal": {
+    "disclaimer": "General information only, not tax advice. Confirm rates with ATO."
+  }
+}
